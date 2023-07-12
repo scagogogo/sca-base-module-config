@@ -47,3 +47,8 @@ database:
     driver:
       sqlx: true
       gorm: true
+    connection:
+      max-idle: 10
+      max-open: 100
+      max-lifetime: 1000_000
+
