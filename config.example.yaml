@@ -41,4 +41,9 @@ redis:
 # 数据库配置
 database:
   mysql:
+    auto-init: true
     dsn: "xxxx:xxxxxxxx@tcp(xxxx)/xxxx?parseTime=true&loc=Local&charset=utf8mb4"
+    # 使用到的驱动都有哪些
+    driver:
+      sqlx: true
+      gorm: true
