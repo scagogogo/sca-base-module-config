@@ -1,6 +1,7 @@
 package sca_base_module_config
 
 type Logger struct {
+	AutoInit  *bool        `yaml:"auto-init" mapstructure:"auto-init"`
 	Enable    LoggerEnable `yaml:"enable" mapstructure:"enable"`
 	Directory string       `yaml:"directory" mapstructure:"directory"`
 }

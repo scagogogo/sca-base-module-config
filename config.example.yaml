@@ -1,7 +1,8 @@
 # 日志相关参数配置
 logger:
+  auto-init: true
   # 日志文件的输出目录
-  directory: "./"
+  directory: "./logs"
   # 日志开启哪些端
   enable:
     # 是否开启标准输出
