@@ -35,6 +35,7 @@ oss:
 
 # Redis配置
 redis:
+  auto-init: true
   address: "xxx:6379"
   passwd: "xxxx:xxxx"
 
