@@ -1,6 +1,8 @@
 # 日志相关参数配置
 logger:
   auto-init: true
+  # 日志的级别
+  level: info
   # 日志文件的输出目录
   directory: "./logs"
   # 日志开启哪些端
