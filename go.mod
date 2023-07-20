@@ -1,6 +1,6 @@
 module github.com/scagogogo/sca-base-module-config
 
-go 1.18
+go 1.19
 
 require (
 	github.com/golang-infrastructure/go-pointer v0.0.4
@@ -11,6 +11,7 @@ require (
 )
 
 require (
+	github.com/crawler-go-go-go/go-requests v0.0.0-20230525030146-0f17843cff2c // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
 	github.com/golang-infrastructure/go-how-run v0.0.0-20230107060855-56163adc7748 // indirect
@@ -27,5 +28,6 @@ require (
 	golang.org/x/sys v0.10.0 // indirect
 	golang.org/x/text v0.11.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
+	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )

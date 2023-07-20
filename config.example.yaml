@@ -18,6 +18,8 @@ crawler:
   proxy:
     # 动态代理
     dynamic-proxy: "xxx"
+    # 短效提取型代理
+    short-proxy: "xxx"
   # 爬虫的队列
   queue:
     # 队列名称
