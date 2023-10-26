@@ -8,6 +8,7 @@ type Configuration struct {
 	Redis    Redis    `yaml:"redis" mapstructure:"redis"`
 	Logger   Logger   `yaml:"logger" mapstructure:"logger"`
 	OSS      OSS      `yaml:"oss" mapstructure:"oss"`
+	COS      COS      `yaml:"cos" mapstructure:"cos"`
 	Crawler  Crawler  `yaml:"crawler" mapstructure:"crawler"`
 
 	// 把原来的viper也获取一下放在这里，随时都可以通过viper的方法来获取

@@ -37,6 +37,14 @@ oss:
   access-key-id: "xxxx"
   access-key-secret: "xxxx"
 
+# COS相关参数配置
+cos:
+  # 公网
+  endpoint: "https://<bucket>.cos.<region>.myqcloud.com"
+  # 认证相关
+  secret-id: "xxxx"
+  secret-key: "xxxx"
+
 # Redis配置
 redis:
   auto-init: true
